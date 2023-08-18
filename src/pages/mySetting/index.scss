@@ -1,0 +1,72 @@
+.setting-wrapper {
+    background-color: #f7f7f7;
+    height: inherit;
+}
+
+.setting-w-container {
+    padding: 24px 40px;
+    height: calc(100vh - (var(--header-state-height) + var(--header-tab-height)));
+}
+
+.setting-w-container {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.setting-wc-item {
+    width: 100%;
+    height: 112px;
+    border-radius: 12px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 24px;
+}
+
+.setting-wci-left {
+    font-size: var(--font-32, 32px);
+    color: var(--system-primary, #333333);
+}
+
+.setting-wci-right {
+    font-size: var(--font-32, 32px);
+    color: var(--system-secondary, #999999);
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.setting-wci-right .name-text {
+    -webkit-line-clamp: 1;
+}
+
+.setting-wci-right.name {
+    width: 100%;
+}
+
+.setting-wci-right input {
+    width: 100%;
+    font-size: var(--font-32, 32px);
+    color: var(--system-primary, #333333);
+}
+
+.setting-wc-popup {
+    width: calc(100% - 80px);
+    margin-inline-end: 40px;
+    padding-inline-start: 60px;
+    padding-inline-end: 60px;
+}
+
+.setting-wc-popup .setting-wc-item:nth-child(1) {
+    justify-content: center;
+    align-items: flex-start;
+    padding-block-start: 14px;
+}
+
+.setting-wc-popup .setting-wc-item:nth-child(2) {
+    background-color: #f7f7f7;
+    border-radius: 8px;
+    height: 70px;
+}

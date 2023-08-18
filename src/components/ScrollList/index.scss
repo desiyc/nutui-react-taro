@@ -1,0 +1,47 @@
+/* .scroll-list-wrapper {
+    mask: linear-gradient(0deg, transparent 0, #000 2px, #000 calc(100% - 2px), transparent 100%);
+} */
+.scroll-list-wrapper::-webkit-scrollbar {
+    display: none;
+}
+
+.scroll-list-container {
+    align-content: flex-start;
+    gap: 16px;
+    padding-block-end: 240px;
+}
+
+.scroll-list-container.grid {
+    display: grid;
+}
+
+.scroll-list-container.grid-2 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.scroll-list-container.block {
+    display: block;
+}
+
+.scroll-list-container.flex {
+    display: flex;
+    flex-direction: column;
+}
+
+.scroll-list-container.none {
+    display: none;
+}
+
+.scroll-list-container.a-0 {
+    display: block;
+}
+
+.scroll-list-container.a-0:not(.loading-false) {
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-items: center;
+    justify-content: center;
+    height: 100%;
+}

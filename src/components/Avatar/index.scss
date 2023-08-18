@@ -1,0 +1,55 @@
+.avatar-wrapper > .van-image {
+    width: var(--avatar-size);
+    height: var(--avatar-size);
+}
+
+.avatar-wrapper {
+    display: grid;
+    align-items: center;
+    grid-auto-flow: var(--flow);
+    justify-items: center;
+    gap: 18px;
+}
+
+.avatar-wrapper > .van-image {
+    border-radius: var(--avatar-border-radius);
+    box-shadow: 0px 4px 8px 4px #bdbdbd40;
+    background-color: white;
+    overflow: hidden;
+}
+
+.avatar-name {
+    font-size: var(--avatar-font-size, 32px);
+    font-weight: 500;
+    color: var(--system-primary, #333333);
+    white-space: nowrap;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.avatar-name > text {
+    max-width: 150px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    /* transform: translateX(100%); */
+    /* animation: name-scrolling 1.6s linear infinite; */
+}
+
+.name-text {
+    max-width: 240px;
+}
+
+.name-text .overflow {
+    -webkit-line-clamp: 1;
+}
+
+@keyframes name-scrolling {
+    0% {
+        transform: translateX(100%);
+    }
+    100% {
+        transform: translateX(-100%);
+    }
+}

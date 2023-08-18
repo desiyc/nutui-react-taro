@@ -1,0 +1,92 @@
+/* https://o2.orbitsoft.cn/yh1/uploads/Kh_SqV/MiSans-Thin.ttf */
+/* https://o2.orbitsoft.cn/yh1/uploads/dqpLNR/MiSans-Semibold.ttf */
+/* https://o2.orbitsoft.cn/yh1/uploads/LGh9X9/MiSans-Regular.ttf */
+/* https://o2.orbitsoft.cn/yh1/uploads/EE2BFM/MiSans-Normal.ttf */
+/* https://o2.orbitsoft.cn/yh1/uploads/mTaPQm/MiSans-Medium.ttf */
+/* https://o2.orbitsoft.cn/yh1/uploads/maBZ4C/MiSans-Light.ttf */
+/* https://o2.orbitsoft.cn/yh1/uploads/HA1FSc/MiSans-Heavy.ttf */
+/* https://o2.orbitsoft.cn/yh1/uploads/9ZCfyH/MiSans-ExtraLight.ttf */
+/* https://o2.orbitsoft.cn/yh1/uploads/OIy6-o/MiSans-Demibold.ttf */
+/* https://o2.orbitsoft.cn/yh1/uploads/nyZ2tU/MiSans-Bold.ttf */
+
+@font-face {
+    font-family: 'MiSans';
+    src: local('☺'), url('https://o2.orbitsoft.cn/yh1/uploads/Kh_SqV/MiSans-Thin.ttf') format('truetype');
+    font-weight: 100;
+    font-display: swap;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'MiSans';
+    src: local('☺'), url('https://o2.orbitsoft.cn/yh1/uploads/dqpLNR/MiSans-Semibold.ttf') format('truetype');
+    font-weight: 600;
+    font-display: swap;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'MiSans';
+    src: local('☺'), url('https://o2.orbitsoft.cn/yh1/uploads/LGh9X9/MiSans-Regular.ttf') format('truetype');
+    font-weight: 400;
+    font-display: swap;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'MiSans';
+    src: local('☺'), url('https://o2.orbitsoft.cn/yh1/uploads/EE2BFM/MiSans-Normal.ttf') format('truetype');
+    font-weight: 400;
+    font-display: swap;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'MiSans';
+    src: local('☺'), url('https://o2.orbitsoft.cn/yh1/uploads/mTaPQm/MiSans-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-display: swap;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'MiSans';
+    src: local('☺'), url('https://o2.orbitsoft.cn/yh1/uploads/maBZ4C/MiSans-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-display: swap;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'MiSans';
+    src: local('☺'), url('https://o2.orbitsoft.cn/yh1/uploads/HA1FSc/MiSans-Heavy.ttf') format('truetype');
+    font-weight: 800;
+    font-display: swap;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'MiSans';
+    src: local('☺'), url('https://o2.orbitsoft.cn/yh1/uploads/9ZCfyH/MiSans-ExtraLight.ttf') format('truetype');
+    font-weight: 200;
+    font-display: swap;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'MiSans';
+    src: local('☺'), url('https://o2.orbitsoft.cn/yh1/uploads/OIy6-o/MiSans-Demibold.ttf') format('truetype');
+    font-weight: 700;
+    font-display: swap;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'MiSans';
+    src: local('☺'), url('https://o2.orbitsoft.cn/yh1/uploads/nyZ2tU/MiSans-Bold.ttf') format('truetype');
+    font-weight: 700;
+    font-display: swap;
+    font-style: normal;
+}
+
+/* Copyright © 2022 OrbitSoft. All rights reserved. */

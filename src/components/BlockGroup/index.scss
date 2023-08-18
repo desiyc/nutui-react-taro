@@ -1,0 +1,24 @@
+.block-group-wrapper {
+    width: 100%;
+    height: fit-content;
+}
+
+.block-group-title {
+    font-size: var(--font-32);
+    color: var(--system-primary);
+    font-weight: 500;
+    padding-inline-start: 24px;
+}
+
+.block-group-wrapper .block-item {
+    border-bottom: none;
+}
+
+.block-group-wrapper:not(.block-group-wrapper-title) > .block-item:last-child {
+    border-bottom: 2px solid #EEEEEE;
+}
+
+.block-group-wrapper-title .block-item {
+    border-top: none;
+    border-bottom: 2px solid #EEEEEE;
+}

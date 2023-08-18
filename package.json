@@ -20,6 +20,7 @@
   "author": "",
   "license": "MIT",
   "dependencies": {
+    "@antmjs/vantui": "^3.1.5",
     "@babel/runtime": "^7.7.7",
     "@nutui/nutui-react-taro": "^1.4.7",
     "@rematch/core": "^2.2.0",
@@ -41,6 +42,7 @@
     "@tarojs/taro": "3.5.1",
     "@tarojs/taro-h5": "3.5.1",
     "@tencentcloud/chat": "^3.1.1",
+    "ahooks": "^3.7.8",
     "react": "^18.0.0",
     "react-dom": "^18.0.0",
     "react-redux": "^8.0.7",

@@ -1,0 +1,65 @@
+.date-picker_wrapper .next-button-wrapper {
+    position: initial;
+    animation: none;
+    box-shadow: none;
+    align-items: center;
+}
+
+.date-picker_wrapper .next-bs-wrapper {
+    align-items: center;
+}
+
+.date-picker_container {
+    position: relative;
+    width: 100%;
+    height: fit-content;
+    padding: 24px;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto 1fr;
+    gap: 16px;
+}
+
+.dpw-header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+}
+
+.date-picker_container picker-view {
+    height: 400px;
+}
+
+.date-picker_container picker-view picker-view-column:first-child {
+    flex: 1.5;
+}
+
+.dpw-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    white-space: nowrap;
+}
+
+.year-toggle_wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    height: 88px;
+}
+
+.year-toggle-red {
+    transform: scale(0.6876);
+}
+
+.at-float-layout__container.layout {
+    border-top-left-radius: 24px;
+    border-top-right-radius: 24px;
+}
+
+.at-float-layout__container.layout .layout-body {
+    padding: 0px;
+}
