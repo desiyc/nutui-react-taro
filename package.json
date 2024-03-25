@@ -10,7 +10,9 @@
   },
   "scripts": {
     "build:weapp": "taro build --type weapp",
-    "dev:weapp": "npm run build:weapp -- --watch"
+    "dev:weapp": "npm run build:weapp -- --watch",
+    "build:weapp1": "SET NODE_OPTIONS=--openssl-legacy-provider && taro build --type weapp",
+    "dev:weapp1": "SET NODE_OPTIONS=--openssl-legacy-provider && npm run build:weapp -- --watch"
   },
   "browserslist": [
     "last 3 versions",
@@ -20,9 +22,10 @@
   "author": "",
   "license": "MIT",
   "dependencies": {
-    "@antmjs/vantui": "^3.1.5",
+    "@antmjs/vantui": "3.1.7",
     "@babel/runtime": "^7.7.7",
-    "@nutui/nutui-react-taro": "^1.4.7",
+    "@nutui/icons-react-taro": "^0.0.1",
+    "@nutui/nutui-react-taro": "2.0.18",
     "@rematch/core": "^2.2.0",
     "@rematch/loading": "^2.1.2",
     "@tarojs/components": "3.5.1",
@@ -41,15 +44,15 @@
     "@tarojs/shared": "3.5.1",
     "@tarojs/taro": "3.5.1",
     "@tarojs/taro-h5": "3.5.1",
-    "@tencentcloud/chat": "^3.1.1",
     "ahooks": "^3.7.8",
+    "dayjs": "^1.11.10",
+    "postcss-px-scale": "^1.1.1",
     "react": "^18.0.0",
     "react-dom": "^18.0.0",
     "react-redux": "^8.0.7",
     "react-refresh": "^0.11.0",
     "redux": "^4.2.1",
-    "tim-profanity-filter-plugin": "^0.9.0",
-    "tim-upload-plugin": "^1.3.0"
+    "taro-ui": "^3.1.1"
   },
   "devDependencies": {
     "@babel/core": "^7.8.0",
